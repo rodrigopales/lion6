@@ -1,12 +1,104 @@
+/* INICIO PARAMETROS GERAIS */
+
+* {
+
+  margin: 0;
+  padding: 0;
+}
+
 body{
 
-  background:black;
-  
+  background: url("../imagens/fundo.png")
 }
 
-#topo h1{
+ul{
 
-  color:white;
+  list-style: none;
+}
 
+a {
+
+  text-decoration: none;
+}
+
+/* ------ FIM PARAMETROS GERAIS ------ */
+
+/*INICIO AREA TOP */
+
+#area-top{
+
+  width: 100%;
+  height: 200px;
+  background: #1B8089;
+}
+
+#area-top h1{
+
+
+  float: left;
+  padding: 15px;
+  margin: 30px;
+  text-indent: -9000px;
+  background: url("../imagens/logo.png") no-repeat;
+  width: 250px;
+  height: 100px;
 
 }
+
+/* INICIO NAV TOP */
+
+ul#nav-top{
+
+
+  float: right;
+  clear: both;
+  margin-right: 20%;
+  margin-top: -100px;
+}
+
+ul#nav-top li {
+
+
+  padding: 15px;
+  display: inline;
+}
+
+ul#nav-top a {
+
+  font-size: 1.2em;
+  padding: 15px;
+  color: #FFFFFF;
+}
+
+ul#nav-top a:hover{
+
+  color: #000000;
+  border-top: 2px solid #000000;
+}
+
+/* ------ FIM NAV TOP ------ */
+
+/* ------ FIM AREA TOP ------ */
+
+/* INICIO LAYOUT PRINCIPAL */
+
+#slide{
+
+  margin-top: 10px;
+  width: 100%;
+}
+
+#slide img{
+
+  width: 100%;
+}
+
+#principal{
+
+  padding: 15px;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+/* ------ FIM LAYOUT PRINCIPAL ------ */
