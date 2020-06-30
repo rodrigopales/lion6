@@ -1,3 +1,14 @@
+/*IMPORTACOES DE FONTES*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+/*
+CSS rules to specify families
+font-family: 'Montserrat', sans-serif;
+font-weight:bold or litght etc....
+
+*/
+/*---------FIM IMPORTACOES*/
+
+
 /* INICIO PARAMETROS GERAIS */
 
 * {
@@ -8,7 +19,10 @@
 
 body{
 
-  background: url("../imagens/fundo.png")
+  font-size: 1em;
+  font-family: "Montserrat" , sans-serif;
+  background: #ffffff;
+
 }
 
 ul{
@@ -21,59 +35,63 @@ a {
   text-decoration: none;
 }
 
+
+
 /* ------ FIM PARAMETROS GERAIS ------ */
 
 /*INICIO AREA TOP */
 
 #area-top{
 
-  width: 100%;
+
   height: 150px;
-  background: #1B8089;
+  background: #000000;
+  font-weight: bold;
 }
 
-#area-top h1{
-
+.logo{
 
   float: left;
   padding: 15px;
-  margin: 30px;
+  margin: 5px;
   text-indent: -9000px;
-  background: url("../imagens/logo.png") no-repeat;
-  width: 250px;
+  background: orange  url("../imagens/logo.png") no-repeat;
+  width: 100px;
   height:80px;
+
+
+}
+
+#nav-top{
+
+  float: right;
+  margin-right: 40%;
+  margin-top: 50px;
+
 
 }
 
 /* INICIO NAV TOP */
 
-ul#nav-top{
 
-
-  float: right;
-  clear: both;
-  margin-right: 20%;
-  margin-top: -100px;
-}
-
-ul#nav-top li {
-
+#nav-top  li {
 
   padding: 15px;
   display: inline;
 }
 
-ul#nav-top a {
+#nav-top li a {
+
 
   font-size: 1.2em;
-  padding: 15px;
+  padding: 10px;
   color: #FFFFFF;
 }
 
-ul#nav-top a:hover{
+#nav-top li a:hover{
 
-  color: #000000;
-  border-top: 2px solid #000000;
+  color: #ffffff;
+  border-top: 2px solid #ffffff;
 }
 
 /* ------ FIM NAV TOP ------ */
@@ -84,7 +102,7 @@ ul#nav-top a:hover{
 
 #slide{
 
-  margin-top: 10px;
+
   width: 100%;
 }
 
@@ -98,7 +116,7 @@ ul#nav-top a:hover{
   padding: 15px;
   width: 50%;
   margin: 0 auto;
-  margin-top: 10px;
+
 }
 
 /* ------ FIM LAYOUT PRINCIPAL ------ */
