@@ -35,88 +35,38 @@ a {
   text-decoration: none;
 }
 
-
-
 /* ------ FIM PARAMETROS GERAIS ------ */
 
 /*INICIO AREA TOP */
 
 #area-top{
-
-
-  height: 150px;
-  background: #000000;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  background: #1c1c1c;
   font-weight: bold;
 }
 
 .logo{
+  margin-left: 180px;
+  margin-top: 30px;
+  float:left;
 
-  float: left;
-  padding: 15px;
-  margin: 5px;
-  text-indent: -9000px;
-  background: orange  url("../imagens/logo.png") no-repeat;
-  width: 100px;
-  height:80px;
+}
+
+
+.midias{
+  margin-right: 0;
+  margin-top: 40px;
+  padding: 1px;
 
 
 }
 
 #nav-top{
 
+  margin-right: 5%;
+  margin-top: 5%;
   float: right;
-  margin-right: 40%;
-  margin-top: 50px;
-
 
 }
-
-/* INICIO NAV TOP */
-
-
-#nav-top  li {
-
-  padding: 15px;
-  display: inline;
-}
-
-#nav-top li a {
-
-
-  font-size: 1.2em;
-  padding: 10px;
-  color: #FFFFFF;
-}
-
-#nav-top li a:hover{
-
-  color: #ffffff;
-  border-top: 2px solid #ffffff;
-}
-
-/* ------ FIM NAV TOP ------ */
-
-/* ------ FIM AREA TOP ------ */
-
-/* INICIO LAYOUT PRINCIPAL */
-
-#slide{
-
-
-  width: 100%;
-}
-
-#slide img{
-
-  width: 100%;
-}
-
-#principal{
-
-  padding: 15px;
-  width: 50%;
-  margin: 0 auto;
-
-}
-
-/* ------ FIM LAYOUT PRINCIPAL ------ */
