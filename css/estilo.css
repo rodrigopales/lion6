@@ -28,7 +28,7 @@ body{
 
   font-size: 1em;
   font-family: "Montserrat" , sans-serif;
-  background: #ffffff;
+  background: #fffff;
 
 }
 /* ------ FIM PARAMETROS GERAIS ------ */
@@ -36,33 +36,41 @@ body{
 /*INICIO AREA TOP */
 
 #area-top{
+  position: relative;
   width: 100%;
-  height: 100px;
-  text-align: center;
+  overflow: auto;
   background: #1c1c1c;
   font-weight: bold;
+
 }
 
 .logo{
-  margin-left: 180px;
-  margin-top: 30px;
-  float:left;
 
-}
-
-
-.midias{
-  margin-right: 0;
-  margin-top: 40px;
-  padding: 1px;
-
+    margin-bottom:5px;
+    margin-top: 5px;
+    margin-left: 34%;
+    float: left;
 
 }
 
 #nav-top{
+  margin-left: 5px;
+  margin-top: 10px;
+  float: left;
+  color: white;
 
-  margin-right: 5%;
-  margin-top: 5%;
-  float: right;
+}
+
+#nav-midias{
+    margin-right: 5px;
+    margin-top: 10px;
+    float: right;
+
+
+}
+
+.midias li {
+
+  display: inline-flex;
 
 }
