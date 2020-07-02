@@ -4,27 +4,16 @@
 CSS rules to specify families
 font-family: 'Montserrat', sans-serif;
 font-weight:bold or litght etc....
-
 */
 /*---------FIM IMPORTACOES*/
 
 
-/* INICIO PARAMETROS GERAIS */
+/* RESETS PARAMETROS GERAIS */
 
 * {
-
   margin: 0;
   padding: 0;
 }
-
-body{
-
-  font-size: 1em;
-  font-family: "Montserrat" , sans-serif;
-  background: #ffffff;
-
-}
-
 ul{
 
   list-style: none;
@@ -35,6 +24,13 @@ a {
   text-decoration: none;
 }
 
+body{
+
+  font-size: 1em;
+  font-family: "Montserrat" , sans-serif;
+  background: #ffffff;
+
+}
 /* ------ FIM PARAMETROS GERAIS ------ */
 
 /*INICIO AREA TOP */
