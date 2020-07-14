@@ -7,70 +7,74 @@ font-weight:bold or litght etc....
 */
 /*---------FIM IMPORTACOES*/
 
-
 /* RESETS PARAMETROS GERAIS */
-
-* {
+body,p,a,ul,li{
   margin: 0;
   padding: 0;
+  text-decoration: none;
 }
-ul{
-
+li{
   list-style: none;
 }
 
-a {
-
-  text-decoration: none;
-}
-
+/*  ESTILO BASE */
 body{
-
   font-size: 1em;
   font-family: "Montserrat" , sans-serif;
   background: #fffff;
-
 }
-/* ------ FIM PARAMETROS GERAIS ------ */
 
-/*INICIO AREA TOP */
-
-#area-top{
+header{
   position: relative;
+  margin: 0;
+  padding: 10px;
   width: 100%;
-  overflow: auto;
-  background: #1c1c1c;
-  font-weight: bold;
+  display: flex;
+  background: black;
 
 }
 
 .logo{
-
-    margin-bottom:5px;
-    margin-top: 5px;
-    margin-left: 34%;
-    float: left;
-
+  width: 100px;
+  height: 36px;
+  margin: 0 auto;
+  display: block;
+  border: 1px solid red;
+  background: url("../imagens/logomobile2.png") no-repeat center;
 }
 
-#nav-top{
-  margin-left: 5px;
-  margin-top: 10px;
+.menu-principal{
   float: left;
+  padding: 10px;
+
+}
+
+.menu-principal a {
   color: white;
+}
+
+.menu-principal ul li{
+
+    display: inline;
+}
+
+.midias{
+  margin-right:1%;
+  margin-bottom: 1;
+  float: right;
+  border: 1px solid red;
+}
+
+.midias ul li{
+  display: inline;
 
 }
 
-#nav-midias{
-    margin-right: 5px;
-    margin-top: 10px;
-    float: right;
+.midias a {
+
+  width: 56px;
+  height: 56px;
 
 
-}
-
-.midias li {
-
-  display: inline-flex;
 
 }
